@@ -1,4 +1,4 @@
-name: BTC Daily Strategy
+name: BTC 4h real
 
 on:
   schedule:
