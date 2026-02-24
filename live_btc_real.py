@@ -33,7 +33,7 @@ TIMEFRAME = "4h"
 # ✅ NEW: 合约交易参数（你可以按自己偏好调整）
 TD_MODE = "cross"
 HEDGE_MODE = True
-SANDBOX_MODE = True
+SANDBOX_MODE = False
 PROXY_URL = None
 
 
@@ -325,4 +325,5 @@ def run_once() -> None:
 
 if __name__ == "__main__":
     run_once()
+
 
