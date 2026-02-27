@@ -41,7 +41,7 @@ def create_strategy_state() -> StrategyState:
     params = StrategyParams(
         ma_fast=int(os.getenv("MA_FAST", "10")),
         ma_slow=int(os.getenv("MA_SLOW", "20")),
-        buy_pct=float(os.getenv("BUY_PCT", "0.15")),
+        buy_pct=float(os.getenv("BUY_PCT", "0.5")),
         tp1_pct=float(os.getenv("TP1_PCT", "0.08")),
         tp2_pct=float(os.getenv("TP2_PCT", "0.14")),
         sl_pct=float(os.getenv("SL_PCT", "0.18")),
