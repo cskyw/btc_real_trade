@@ -28,7 +28,7 @@ PASSWORD = os.getenv("OKX_PASSPHRASE")
 
 # ✅  合约 symbol（USDT 本位永续）
 SYMBOL = "BTC/USDT:USDT"
-TIMEFRAME = "1d"
+TIMEFRAME = "4h"
 
 # ✅ NEW: 合约交易参数（你可以按自己偏好调整）
 TD_MODE = "cross"
