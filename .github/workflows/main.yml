@@ -1,8 +1,8 @@
-name: BTC 4h real
+name: BTC 1d real
 
 on:
   schedule:
-    - cron: "0 */4 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 
 jobs:
